@@ -1,0 +1,17 @@
+{
+	"meshConfig": {
+		"sources": [
+			{
+				"name": "Content",
+				"handler": {
+					"graphql": {
+						"endpoint": "https://sandbox.samircaus.workers.dev/graphql",
+						"operationHeaders": {
+							"Content-Type": "application/json"
+						}
+					}
+				}
+			}
+		]
+	}
+}

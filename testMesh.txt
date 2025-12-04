@@ -1,0 +1,11 @@
+Building Mesh with config: /Users/samircaus/git/api-mesh-poc/testMesh
+💡 [1m🕸️  Mesh[0m [36mCleaning existing artifacts[0m
+💡 [1m🕸️  Mesh[0m [36mReading the configuration[0m
+💡 [1m🕸️  Mesh[0m [36mGenerating the unified schema[0m
+💡 [1m🕸️  Mesh[0m [36mGenerating artifacts[0m
+💡 [1m🕸️  Mesh[0m [36mGenerating index file in TypeScript[0m
+💡 [1m🕸️  Mesh[0m [36mWriting index.ts for ESM to the disk.[0m
+💡 [1m🕸️  Mesh[0m [36mWriting index.ts for CJS to the disk.[0m
+💡 [1m🕸️  Mesh[0m [36mCleanup[0m
+💡 [1m🕸️  Mesh[0m [36mDone! => /Users/samircaus/git/api-mesh-poc/testMesh/.mesh[0m
+Mesh built successfully

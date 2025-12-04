@@ -1,0 +1,29 @@
+{
+	"meshConfig": {
+		"sources": [
+			{
+				"name": "Cities",
+				"handler": {
+					"openapi": {
+						"source": "https://api.apis.guru/v2/specs/mashape.com/geodb/1.0.0/swagger.json",
+						"operationHeaders": {
+							"X-RapidAPI-Key": "a12b3c456defg78hij9kl0123m4no5pqr6stuv789wxyz01a23"
+						}
+					}
+				}
+			},
+			{
+				"name": "Weather",
+				"handler": {
+					"openapi": {
+						"source": "https://api.apis.guru/v2/specs/weatherbit.io/2.0.0/swagger.json"
+					}
+				}
+			}
+		],
+		"additionalTypeDefs": "extend type PopulatedPlaceSummary {\n  dailyForecast: [Forecast]\n  todayForecast: Forecast\n}\n",
+		"additionalResolvers": [
+			"./additional-resolvers.js"
+		]
+	}
+}
